@@ -2,7 +2,7 @@ import { el } from '../shared/dom';
 import { setRubyText } from '../shared/furigana';
 import { isFuriganaEnabled } from '../shared/settings';
 import { loadDiseaseData } from '../shared/repository';
-import { illImg } from '../shared/illustrations';
+import { bodyMapUrl, illImg } from '../shared/illustrations';
 import { screenHeader } from '../shared/ui';
 
 const MAP_REGIONS = [
@@ -27,7 +27,7 @@ export async function renderBodyMap(root: HTMLElement): Promise<void> {
   const mapWrap = el('div', 'body-map-wrap');
   const img = document.createElement('img');
   img.className = 'body-map-img';
-  img.src = '/assets/ill/body-map.svg';
+  img.src = bodyMapUrl();
   img.alt = 'からだのイラスト';
   mapWrap.appendChild(img);
 

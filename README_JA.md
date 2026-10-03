@@ -26,7 +26,8 @@ npm run dev
 npm run build
 ```
 
-`diseases.json` は `byoki_zukan/app/src/main/assets/diseases.json` を `public/assets/` にコピーして同期してください。
+- `scripts/sync-content.ps1` … `diseases.json`
+- `npm run sync:ill` … `byoki_zukan/app/src/main/res/drawable-nodpi/*.png` → `public/assets/illustrations/`
 
 ## 本番
 

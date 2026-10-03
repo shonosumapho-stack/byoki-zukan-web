@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/gen-illustrations.mjs && tsc && vite build",
-    "gen:ill": "node scripts/gen-illustrations.mjs",
+    "build": "tsc && vite build",
+    "sync:ill": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-illustrations.ps1",
     "preview": "vite preview"
   },
   "devDependencies": {

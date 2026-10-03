@@ -1,17 +1,23 @@
+const PNG = '.png';
+
 export function illustrationUrl(key: string): string {
   if (key.startsWith('illustrations/parts/')) {
     const id = key.replace('illustrations/parts/', '');
-    return `/assets/ill/parts/${id}.svg`;
+    return `/assets/illustrations/parts/${id}${PNG}`;
   }
   if (key.startsWith('illustrations/diseases/')) {
     const id = key.replace('illustrations/diseases/', '');
-    return `/assets/ill/diseases/${id}.svg`;
+    return `/assets/illustrations/diseases/${id}${PNG}`;
   }
   if (key.startsWith('ic_cause_')) {
     const id = key.replace('ic_cause_', '');
-    return `/assets/ill/causes/${id}.svg`;
+    return `/assets/illustrations/causes/${id}${PNG}`;
   }
-  return '/assets/ill/placeholder.svg';
+  return '/assets/illustrations/placeholder.png';
+}
+
+export function bodyMapUrl(): string {
+  return '/assets/illustrations/body-map.png';
 }
 
 export function illImg(key: string, className = 'ill-thumb'): HTMLImageElement {

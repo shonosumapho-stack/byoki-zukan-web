@@ -208,11 +208,12 @@ ruby rt {
 
 .detail-hero {
   width: 100%;
-  max-width: 12rem;
+  max-width: 14rem;
   margin: 0 auto 0.75rem;
   display: block;
   border-radius: 12px;
   background: #fff8f0;
+  object-fit: contain;
 }
 
 .detail-name {
