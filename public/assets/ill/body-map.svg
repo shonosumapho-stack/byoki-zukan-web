@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" role="img" aria-label="からだ">
+  <rect width="200" height="300" fill="#ECFDF5"/>
+  <ellipse cx="100" cy="42" rx="28" ry="32" fill="#FDE68A"/>
+  <rect x="82" y="72" width="36" height="18" rx="8" fill="#FECACA"/>
+  <path fill="#BAE6FD" d="M62 88c-8 24-10 48-8 72h16V88H62zm76 0v72h16c2-24 0-48-8-72h-8z"/>
+  <ellipse cx="100" cy="118" rx="14" ry="16" fill="#FDA4AF"/>
+  <ellipse cx="78" cy="138" rx="18" ry="14" fill="#D97706" opacity="0.85"/>
+  <ellipse cx="122" cy="140" rx="16" ry="14" fill="#F59E0B" opacity="0.85"/>
+  <path fill="#FDBA74" d="M72 152c4 28 8 56 12 84h32c4-28 8-56 12-84-14-8-32-8-56 0z"/>
+  <rect x="88" y="230" width="24" height="50" rx="10" fill="#FDE68A"/>
+</svg>

@@ -1,0 +1,707 @@
+{
+  "bodyParts": [
+    {
+      "id": "head",
+      "name": "頭",
+      "nameRuby": "頭{あたま}",
+      "illustration": "illustrations/parts/head",
+      "roleRuby": "かんがえたり、みたり、きいたりする ちゅうしん",
+      "howItWorksRuby": "脳{のう}が からだに しじを だすよ",
+      "careTipRuby": "ヘルメットを かぶったり、ねむりを しっかり とろう",
+      "triviaRuby": "脳{のう}は やわらかい とうふみたい！"
+    },
+    {
+      "id": "throat",
+      "name": "のど",
+      "nameRuby": "のど",
+      "illustration": "illustrations/parts/throat",
+      "roleRuby": "いきや こえ、たべものを とおす みち",
+      "howItWorksRuby": "くちと 肺{はい}・胃{い}や 腸{ちょう}を つなぐよ",
+      "careTipRuby": "のどが かわいたら 水{みず}を のもう",
+      "triviaRuby": "こえは のどの 声帯{せいたい}で でるよ"
+    },
+    {
+      "id": "nose",
+      "name": "はな",
+      "nameRuby": "はな",
+      "illustration": "illustrations/parts/nose",
+      "roleRuby": "いきを すって、においを かんじる",
+      "howItWorksRuby": "空気{くうき}を あたためて きれいにしてから 肺{はい}へ おくるよ",
+      "careTipRuby": "はなを かむときは やさしくね",
+      "triviaRuby": "においを かんじる センサーが たくさん あるよ"
+    },
+    {
+      "id": "lung",
+      "name": "肺",
+      "nameRuby": "肺{はい}",
+      "illustration": "illustrations/parts/lung",
+      "roleRuby": "いきを すって、さんそを からだに とどける",
+      "howItWorksRuby": "のどから はいった 空気{くうき}の さんそが、肺{はい}から からだへ いくよ",
+      "careTipRuby": "はなで すって、けむりは さけよう",
+      "triviaRuby": "肺{はい}は スポンジみたいに ふくらむよ"
+    },
+    {
+      "id": "heart",
+      "name": "心臓",
+      "nameRuby": "心臓{しんぞう}",
+      "illustration": "illustrations/parts/heart",
+      "roleRuby": "血{ち}を からだじゅうに おくる ポンプ",
+      "howItWorksRuby": "どきどき うごいて、血{ち}を おしだすよ",
+      "careTipRuby": "うんどうして、むねを きたえよう",
+      "triviaRuby": "一日{いちにち}に 何万回{なんまんかい}も うごくよ"
+    },
+    {
+      "id": "stomach",
+      "name": "胃",
+      "nameRuby": "胃{い}",
+      "illustration": "illustrations/parts/stomach",
+      "roleRuby": "たべものを くだいて、消化{しょうか}する",
+      "howItWorksRuby": "胃{い}で まぜて、つぎの 臓器{ぞうき}へ おくるよ",
+      "careTipRuby": "よく かんで、ゆっくり たべよう",
+      "triviaRuby": "おなかが なるのは 胃{い}が うごいている おとだよ"
+    },
+    {
+      "id": "intestine",
+      "name": "腸",
+      "nameRuby": "腸{ちょう}",
+      "illustration": "illustrations/parts/intestine",
+      "roleRuby": "えいようを すいとって、いらないものを だす",
+      "howItWorksRuby": "ながい チューブみたいに くねくねしているよ",
+      "careTipRuby": "やさいや 水{みず}を とって、おなかを らくにしよう",
+      "triviaRuby": "腸{ちょう}は とても ながいよ"
+    },
+    {
+      "id": "liver",
+      "name": "肝臓",
+      "nameRuby": "肝臓{かんぞう}",
+      "illustration": "illustrations/parts/liver",
+      "roleRuby": "からだの そうじや、えいようの ためおき",
+      "howItWorksRuby": "血{ち}を きれいにして、エネルギーを ためるよ",
+      "careTipRuby": "ねむりと ごはんの バランスが だいじ",
+      "triviaRuby": "ちょっと いたんでも なおる 力{ちから}が つよいよ"
+    },
+    {
+      "id": "kidney",
+      "name": "腎臓",
+      "nameRuby": "腎臓{じんぞう}",
+      "illustration": "illustrations/parts/kidney",
+      "roleRuby": "血{ち}を ろ過{ろか}して、いらないものを 尿{にょう}にする",
+      "howItWorksRuby": "豆{まめ}みたいな かたちが ふたつ あるよ",
+      "careTipRuby": "水{みず}を ちゃんと のもう",
+      "triviaRuby": "一日{いちにち}に たくさんの 血{ち}を きれいにするよ"
+    },
+    {
+      "id": "skin",
+      "name": "皮膚",
+      "nameRuby": "皮膚{ひふ}",
+      "illustration": "illustrations/parts/skin",
+      "roleRuby": "からだを まもる、いちばん そとの カバー",
+      "howItWorksRuby": "ばいきんや きずから なかを まもるよ",
+      "careTipRuby": "あらいすぎず、保湿{ほしつ}も 大切{たいせつ}だよ",
+      "triviaRuby": "皮膚{ひふ}は からだで いちばん おおきな 臓器{ぞうき}だよ"
+    },
+    {
+      "id": "bone",
+      "name": "骨",
+      "nameRuby": "骨{ほね}",
+      "illustration": "illustrations/parts/bone",
+      "roleRuby": "からだを ささえて、なかの 臓器{ぞうき}を まもる",
+      "howItWorksRuby": "筋肉{きんにく}と いっしょに うごくよ",
+      "careTipRuby": "カルシウムと うんどうで つよくなるよ",
+      "triviaRuby": "骨{ほね}の なかで 血{ち}も つくられるよ"
+    },
+    {
+      "id": "vessel",
+      "name": "血管",
+      "nameRuby": "血管{けっかん}",
+      "illustration": "illustrations/parts/vessel",
+      "roleRuby": "血{ち}が とおる みち",
+      "howItWorksRuby": "心臓{しんぞう}から からだじゅうへ つながる ホースみたいだよ",
+      "careTipRuby": "あたたかくして、適度{てきど}に うごこう",
+      "triviaRuby": "ぜんぶ つなぐと とても ながいよ"
+    },
+    {
+      "id": "whole",
+      "name": "全身",
+      "nameRuby": "全身{ぜんしん}",
+      "illustration": "illustrations/parts/whole",
+      "roleRuby": "からだ ぜんぶが チームで はたらく",
+      "howItWorksRuby": "ぶいどうしが れんけいして はたらいているよ",
+      "careTipRuby": "ねむり・ごはん・うんどうの バランスが だいじ",
+      "triviaRuby": "からだは すごい チームワーク！"
+    },
+    {
+      "id": "eye",
+      "name": "目",
+      "nameRuby": "目{め}",
+      "illustration": "illustrations/parts/eye",
+      "roleRuby": "光{ひかり}を 感{かん}じて、ものを みる",
+      "howItWorksRuby": "レンズみたいに ピントを あわせるよ",
+      "careTipRuby": "近{ちか}くばかり みないで、遠{とお}くも みよう",
+      "triviaRuby": "まばたきで 目{め}を うるおすよ"
+    },
+    {
+      "id": "ear",
+      "name": "耳",
+      "nameRuby": "耳{みみ}",
+      "illustration": "illustrations/parts/ear",
+      "roleRuby": "音{おと}を きいて、バランスも とる",
+      "howItWorksRuby": "外{そと}・中{なか}・内耳{ないじ}が チームで はたらくよ",
+      "careTipRuby": "大{おお}きな 音{おと}から 耳{みみ}を まもろう",
+      "triviaRuby": "みぎと ひだりの 耳{みみ}で、音{おと}の ほうこうが わかるよ"
+    },
+    {
+      "id": "tooth",
+      "name": "歯",
+      "nameRuby": "歯{は}",
+      "illustration": "illustrations/parts/tooth",
+      "roleRuby": "たべものを かんで、ことばも たすける",
+      "howItWorksRuby": "かたい エナメルで おおわれているよ",
+      "careTipRuby": "みがいて、あまいものの あとにも ケアしよう",
+      "triviaRuby": "乳歯{にゅうし}の あとに 永久歯{えいきゅうし}が はえるよ"
+    }
+  ],
+  "causes": [
+    {
+      "id": "virus",
+      "name": "ウイルス",
+      "nameRuby": "ウイルス",
+      "icon": "ic_cause_virus",
+      "summaryRuby": "とても ちいさい 病原体{びょうげんたい}。例{れい}：インフルエンザウイルス、ノロウイルス、麻疹{ましん}ウイルス"
+    },
+    {
+      "id": "bacteria",
+      "name": "細菌",
+      "nameRuby": "細菌{さいきん}",
+      "icon": "ic_cause_bacteria",
+      "summaryRuby": "目{め}に みえない ちいさい いきもの。例{れい}：溶連菌{ようれんきん}、大腸菌{だいちょうきん}、ミュータンス菌{きん}"
+    },
+    {
+      "id": "allergy",
+      "name": "アレルギー",
+      "nameRuby": "アレルギー",
+      "icon": "ic_cause_allergy",
+      "summaryRuby": "からだの ぼうえいが やりすぎてしまうこと。花粉{かふん}や たべものが きっかけに なることも あるよ"
+    },
+    {
+      "id": "injury",
+      "name": "けが",
+      "nameRuby": "けが",
+      "icon": "ic_cause_injury",
+      "summaryRuby": "ぶつかったり ころんだりして できる きずや 骨折{こっせつ}"
+    },
+    {
+      "id": "lifestyle",
+      "name": "生活習慣",
+      "nameRuby": "生活習慣{せいかつしゅうかん}",
+      "icon": "ic_cause_lifestyle",
+      "summaryRuby": "ねむり・ごはん・うんどうの くみたてが かんけいすること"
+    },
+    {
+      "id": "gene",
+      "name": "遺伝子",
+      "nameRuby": "遺伝子{いでんし}・うまれつき",
+      "icon": "ic_cause_gene",
+      "summaryRuby": "うまれつきの からだの つくりが かんけいすることもあるよ"
+    },
+    {
+      "id": "parasite",
+      "name": "虫・寄生虫",
+      "nameRuby": "虫{むし}・寄生虫{きせいちゅう}",
+      "icon": "ic_cause_parasite",
+      "summaryRuby": "からだに はいりこむ ちいさい いきもの（寄生虫{きせいちゅう}など）"
+    },
+    {
+      "id": "other",
+      "name": "その他",
+      "nameRuby": "その他{ほか}",
+      "icon": "ic_cause_other",
+      "summaryRuby": "いろいろ まざっている ばあいもあるよ"
+    }
+  ],
+  "diseases": [
+    {
+      "id": "kaze",
+      "name": "かぜ",
+      "nameRuby": "かぜ",
+      "bodyPartIds": [
+        "throat",
+        "nose",
+        "whole"
+      ],
+      "causeIds": [
+        "virus"
+      ],
+      "symptomsRuby": "のどが いたくて、せきや はなみずが でる",
+      "summaryRuby": "のどや はなが かゆくなったり いたくなったりする びょうき",
+      "detailRuby": "ウイルスが のどや はなに ついて、からだの ぼうえいが がんばるよ。ねつが すこし でることもあるよ",
+      "careRuby": "ゆっくり ねて、水{みず}を のもう。つらいときは おうちの ひとに そうだんしてね",
+      "triviaRuby": "手{て}あらいと うがいが、かぜ 予防{よぼう}の みかただよ",
+      "illustration": "illustrations/diseases/kaze",
+      "quizHints": {
+        "siteRuby": "のど・はな",
+        "causeRuby": "ウイルス",
+        "symptomRuby": "せき・ねつ・のどのいたみ"
+      },
+      "agentRuby": "おもに ライノウイルスや コロナウイルスなど。かぜの 原因{げんいん}ウイルスは たくさん あるよ"
+    },
+    {
+      "id": "influenza",
+      "name": "インフルエンザ",
+      "nameRuby": "インフルエンザ",
+      "bodyPartIds": [
+        "whole",
+        "throat",
+        "lung"
+      ],
+      "causeIds": [
+        "virus"
+      ],
+      "symptomsRuby": "高{たか}い ねつと からだの だるさ、せき",
+      "summaryRuby": "かぜより つよく ねつが でる ことが 多{おお}い びょうき",
+      "detailRuby": "ウイルスが からだに はいって、いっぺんに つよく はたらくことがあるよ",
+      "careRuby": "ねて、水分{すいぶん}を とろう。びょういんに いくかも しれないよ",
+      "triviaRuby": "ワクチンという 予防{よぼう}注射{ちゅうしゃ}も あるよ",
+      "illustration": "illustrations/diseases/influenza",
+      "quizHints": {
+        "siteRuby": "からだ ぜんたい",
+        "causeRuby": "ウイルス",
+        "symptomRuby": "高{たか}い ねつ・だるさ・せき"
+      },
+      "agentRuby": "インフルエンザウイルス（A型{がた}・B型{がた}）。季節{きせつ}で はやることが おおいよ"
+    },
+    {
+      "id": "strep",
+      "name": "溶連菌",
+      "nameRuby": "溶連菌{ようれんきん}",
+      "bodyPartIds": [
+        "throat"
+      ],
+      "causeIds": [
+        "bacteria"
+      ],
+      "symptomsRuby": "のどが とても いたくて、ねつが でる",
+      "summaryRuby": "のどが いたくなる 細菌{さいきん}の びょうき",
+      "detailRuby": "のどが あかくなって、とても いたくなることがあるよ",
+      "careRuby": "びょういんの せんせいの おくすりを さいごまで のもう",
+      "triviaRuby": "いちご舌{じた}と よばれる 舌{した}に なることもあるよ",
+      "illustration": "illustrations/diseases/strep",
+      "quizHints": {
+        "siteRuby": "のど",
+        "causeRuby": "細菌{さいきん}",
+        "symptomRuby": "のどのいたみ・ねつ"
+      },
+      "agentRuby": "A群{ぐん}β溶血性{ようけつせい}連鎖球菌{れんさきゅうきん}（Streptococcus pyogenes）"
+    },
+    {
+      "id": "chickenpox",
+      "name": "みずぼうそう",
+      "nameRuby": "みずぼうそう",
+      "bodyPartIds": [
+        "skin",
+        "whole"
+      ],
+      "causeIds": [
+        "virus"
+      ],
+      "symptomsRuby": "からだに みずぶくれのような ぶつぶつが でる",
+      "summaryRuby": "からだに かゆい ぶつぶつが できる びょうき",
+      "detailRuby": "ウイルスが 皮膚{ひふ}に ぶつぶつを つくるよ。かゆいけど かかないでね",
+      "careRuby": "かきむしらないで、せんせいの いうことを きこう",
+      "triviaRuby": "ワクチンで なりにくく できるよ",
+      "illustration": "illustrations/diseases/chickenpox",
+      "quizHints": {
+        "siteRuby": "皮膚{ひふ}・全身{ぜんしん}",
+        "causeRuby": "ウイルス",
+        "symptomRuby": "かゆいぶつぶつ"
+      },
+      "agentRuby": "水痘{すいとう}・帯状疱疹{たいじょうほうしん}ウイルス（VZV / Varicella-zoster virus）"
+    },
+    {
+      "id": "mumps",
+      "name": "おたふくかぜ",
+      "nameRuby": "おたふくかぜ",
+      "bodyPartIds": [
+        "head",
+        "throat"
+      ],
+      "causeIds": [
+        "virus"
+      ],
+      "symptomsRuby": "ほおが はれて、いたくなる",
+      "summaryRuby": "ほおが ふくらむ びょうき",
+      "detailRuby": "ほおの 近{ちか}くの 唾液腺{だえきせん}が はれるよ",
+      "careRuby": "あたたかくして、やわらかい たべものを たべよう",
+      "triviaRuby": "ワクチンが あるよ",
+      "illustration": "illustrations/diseases/mumps",
+      "quizHints": {
+        "siteRuby": "ほお・あご",
+        "causeRuby": "ウイルス",
+        "symptomRuby": "ほおの はれ"
+      },
+      "agentRuby": "ムンプスウイルス（Mumps virus）"
+    },
+    {
+      "id": "measles",
+      "name": "はしか",
+      "nameRuby": "はしか",
+      "bodyPartIds": [
+        "skin",
+        "whole",
+        "throat"
+      ],
+      "causeIds": [
+        "virus"
+      ],
+      "symptomsRuby": "ねつと せきの あと、からだに 発疹{はっしん}",
+      "summaryRuby": "うつりやすい びょうき。ワクチンで まもれるよ",
+      "detailRuby": "ねつの あと、からだに あかい ぶつぶつが でるよ",
+      "careRuby": "おうちの ひとと いっしょに、びょういんに そうだんしてね",
+      "triviaRuby": "MRワクチンで 予防{よぼう}できるよ",
+      "illustration": "illustrations/diseases/measles",
+      "quizHints": {
+        "siteRuby": "全身{ぜんしん}・皮膚{ひふ}",
+        "causeRuby": "ウイルス",
+        "symptomRuby": "ねつ・発疹{はっしん}"
+      },
+      "agentRuby": "麻疹{ましん}ウイルス（Measles virus / モービリウイルス）"
+    },
+    {
+      "id": "hfmd",
+      "name": "手足口病",
+      "nameRuby": "手足口病{てあしくちびょう}",
+      "bodyPartIds": [
+        "skin",
+        "tooth",
+        "throat"
+      ],
+      "causeIds": [
+        "virus"
+      ],
+      "symptomsRuby": "手{て}・足{あし}・くちに ぶつぶつや 水{みず}ぶくれ",
+      "summaryRuby": "なつに、こどもに おおい びょうき",
+      "detailRuby": "くちの なかが いたくて、ごはんが つらいこともあるよ",
+      "careRuby": "やわらかい たべものと 水分{すいぶん}を とろう",
+      "triviaRuby": "なまえの とおり、手{て}・足{あし}・くちに でるよ",
+      "illustration": "illustrations/diseases/hfmd",
+      "quizHints": {
+        "siteRuby": "手{て}・足{あし}・くち",
+        "causeRuby": "ウイルス",
+        "symptomRuby": "ぶつぶつ・くちのいたみ"
+      },
+      "agentRuby": "おもに エンテロウイルス71や コクサッキーウイルスA16など"
+    },
+    {
+      "id": "gastro",
+      "name": "胃腸炎",
+      "nameRuby": "胃腸炎{いちょうえん}（おなかのかぜ）",
+      "bodyPartIds": [
+        "stomach",
+        "intestine"
+      ],
+      "causeIds": [
+        "virus",
+        "bacteria"
+      ],
+      "symptomsRuby": "おなかが いたくて、はいたり げりしたりする",
+      "summaryRuby": "おなかの かぜと よばれる ことが 多{おお}いよ",
+      "detailRuby": "ウイルスや 細菌{さいきん}が おなかを いらだたせるよ",
+      "careRuby": "少{すこ}しずつ 水分{すいぶん}を とろう。むりに ごはんは たべなくて よいよ",
+      "triviaRuby": "手{て}あらいが だいじだよ",
+      "illustration": "illustrations/diseases/gastro",
+      "quizHints": {
+        "siteRuby": "おなか・腸{ちょう}",
+        "causeRuby": "ウイルスなど",
+        "symptomRuby": "はきけ・げり・おなかのいたみ"
+      },
+      "agentRuby": "ノロウイルスや ロタウイルスなど。細菌{さいきん}の こともあるよ"
+    },
+    {
+      "id": "foodpoison",
+      "name": "食中毒",
+      "nameRuby": "食中毒{しょくちゅうどく}",
+      "bodyPartIds": [
+        "stomach",
+        "intestine"
+      ],
+      "causeIds": [
+        "bacteria",
+        "other"
+      ],
+      "symptomsRuby": "ごはんの あと、急{きゅう}に おなかが くるしくなる",
+      "summaryRuby": "いたんだ たべものや ばいきんで おなかが わるくなること",
+      "detailRuby": "加熱{かねつ}不足{ふそく}や 生{なま}のものに ちゅういしてね",
+      "careRuby": "水分{すいぶん}を とって、おうちの ひとに すぐ はなそう",
+      "triviaRuby": "冷蔵{れいぞう}と 手{て}あらいが みかただよ",
+      "illustration": "illustrations/diseases/foodpoison",
+      "quizHints": {
+        "siteRuby": "おなか",
+        "causeRuby": "細菌{さいきん}など",
+        "symptomRuby": "急{きゅう}な おなかの くるしさ"
+      },
+      "agentRuby": "サルモネラ属{ぞく}、カンピロバクター、黄色{おうしょく}ブドウ球菌{きゅうきん}など"
+    },
+    {
+      "id": "hayfever",
+      "name": "花粉症",
+      "nameRuby": "花粉症{かふんしょう}",
+      "bodyPartIds": [
+        "nose",
+        "eye"
+      ],
+      "causeIds": [
+        "allergy"
+      ],
+      "symptomsRuby": "はなの くしゃみ、はなみず、目{め}の かゆみ",
+      "summaryRuby": "花粉{かふん}に、からだの ぼうえいが やりすぎてしまうこと",
+      "detailRuby": "はなや 目{め}が かゆくて つらいことがあるよ",
+      "careRuby": "メガネや マスク、せんせいの くすりも あるよ",
+      "triviaRuby": "はるに おおいけど、ほかの 季節{きせつ}もあるよ",
+      "illustration": "illustrations/diseases/hayfever",
+      "quizHints": {
+        "siteRuby": "はな・目{め}",
+        "causeRuby": "アレルギー",
+        "symptomRuby": "くしゃみ・かゆみ"
+      },
+      "agentRuby": "スギや ヒノキなどの 花粉{かふん}（アレルギーの げんいん）"
+    },
+    {
+      "id": "atopy",
+      "name": "アトピー",
+      "nameRuby": "アトピー性{せい}皮膚炎{ひふえん}",
+      "bodyPartIds": [
+        "skin"
+      ],
+      "causeIds": [
+        "allergy",
+        "gene"
+      ],
+      "symptomsRuby": "皮膚{ひふ}が かさかさして かゆい",
+      "summaryRuby": "皮膚{ひふ}の バリアが よわくて、かゆくなりやすい じょうたい",
+      "detailRuby": "かゆいけど かかない 工夫{くふう}と 保湿{ほしつ}が だいじ",
+      "careRuby": "せんせいの ぬりぐすりと 毎日{まいにち}の ケアが だいじだよ",
+      "triviaRuby": "うまれつきの かんけいも あるよ",
+      "illustration": "illustrations/diseases/atopy",
+      "quizHints": {
+        "siteRuby": "皮膚{ひふ}",
+        "causeRuby": "アレルギーなど",
+        "symptomRuby": "かゆみ・かさかさ"
+      },
+      "agentRuby": "アレルギー体質{たいしつ}や 皮膚{ひふ}バリアの よわさ（とくていの ばいきんの なまえが あるわけでは ないよ）"
+    },
+    {
+      "id": "hives",
+      "name": "じんましん",
+      "nameRuby": "じんましん",
+      "bodyPartIds": [
+        "skin"
+      ],
+      "causeIds": [
+        "allergy",
+        "other"
+      ],
+      "symptomsRuby": "急{きゅう}に 皮膚{ひふ}が 赤{あか}く うきあがる",
+      "summaryRuby": "かゆい ミミズばれが できたり 消{き}えたりするよ",
+      "detailRuby": "たべものや きおんで でることもあるよ",
+      "careRuby": "かきむしらず、おうちの ひとに そうだんしてね",
+      "triviaRuby": "数時間{すうじかん}で きえることも おおいよ",
+      "illustration": "illustrations/diseases/hives",
+      "quizHints": {
+        "siteRuby": "皮膚{ひふ}",
+        "causeRuby": "アレルギーなど",
+        "symptomRuby": "急{きゅう}な 赤{あか}み・かゆみ"
+      },
+      "agentRuby": "アレルギーや きおんなど。ばあいによって ちがうよ"
+    },
+    {
+      "id": "scratch",
+      "name": "すり傷",
+      "nameRuby": "すり傷{きず}",
+      "bodyPartIds": [
+        "skin"
+      ],
+      "causeIds": [
+        "injury"
+      ],
+      "symptomsRuby": "皮膚{ひふ}が すりむけて、ちいさく 血{ち}が でる",
+      "summaryRuby": "ころんだりして できる、よくある けが",
+      "detailRuby": "きれいな 水{みず}で あらって、ばいきんを いれないようにしよう",
+      "careRuby": "ばんそうこうで カバーして、きたない 手{て}で さわらないでね",
+      "triviaRuby": "かさぶたは、なおってきている しるしだよ",
+      "illustration": "illustrations/diseases/scratch",
+      "quizHints": {
+        "siteRuby": "皮膚{ひふ}",
+        "causeRuby": "けが",
+        "symptomRuby": "すりむけ・ちいさな 血{ち}"
+      },
+      "agentRuby": "けが（ばいきんが ついて 炎症{えんしょう}することもあるよ）"
+    },
+    {
+      "id": "fracture",
+      "name": "骨折",
+      "nameRuby": "骨折{こっせつ}",
+      "bodyPartIds": [
+        "bone"
+      ],
+      "causeIds": [
+        "injury"
+      ],
+      "symptomsRuby": "骨{ほね}が 折{お}れて、いたくて うごかしにくい",
+      "summaryRuby": "つよい 力{ちから}で 骨{ほね}が 折{お}れること",
+      "detailRuby": "ギプスなどで 安静{あんせい}にすることが おおいよ",
+      "careRuby": "じぶんで なおそうと せず、大人{おとな}に すぐ はなそう",
+      "triviaRuby": "骨{ほね}は じかんを かけて くっつくよ",
+      "illustration": "illustrations/diseases/fracture",
+      "quizHints": {
+        "siteRuby": "骨{ほね}",
+        "causeRuby": "けが",
+        "symptomRuby": "いたみ・うごかしにくい"
+      },
+      "agentRuby": "けが・強{つよ}い 力{ちから}（病原体{びょうげんたい}ではないよ）"
+    },
+    {
+      "id": "anemia",
+      "name": "貧血",
+      "nameRuby": "貧血{ひんけつ}",
+      "bodyPartIds": [
+        "vessel",
+        "whole"
+      ],
+      "causeIds": [
+        "lifestyle",
+        "other"
+      ],
+      "symptomsRuby": "めまい、だるさ、息{いき}が きれる かんじ",
+      "summaryRuby": "血{ち}の なかの 大事{だいじ}な 成分{せいぶん}が すくないこと",
+      "detailRuby": "ごはんの えいようや、ほかの 理由{りゆう}が かんけいするよ",
+      "careRuby": "おうちの ひとと いっしょに、びょういんに そうだんしてね",
+      "triviaRuby": "鉄分{てつぶん}の 多{おお}い たべものが みかたに なるよ",
+      "illustration": "illustrations/diseases/anemia",
+      "quizHints": {
+        "siteRuby": "全身{ぜんしん}・血{ち}",
+        "causeRuby": "生活{せいかつ}など",
+        "symptomRuby": "だるさ・めまい"
+      },
+      "agentRuby": "鉄分{てつぶん}不足{ふそく}など（ばあいによる）。せんせいに そうだんしてね"
+    },
+    {
+      "id": "myopia",
+      "name": "近視",
+      "nameRuby": "近視{きんし}",
+      "bodyPartIds": [
+        "eye"
+      ],
+      "causeIds": [
+        "lifestyle",
+        "gene"
+      ],
+      "symptomsRuby": "遠{とお}くが みづらい",
+      "summaryRuby": "目{め}の ピントが 近{ちか}くに あいやすいこと",
+      "detailRuby": "本{ほん}や タブレットの みすぎに ちゅういしてね",
+      "careRuby": "遠{とお}くを みたり、そとで あそぶ じかんも 大切{たいせつ}だよ",
+      "triviaRuby": "メガネや コンタクトで たすけることもあるよ",
+      "illustration": "illustrations/diseases/myopia",
+      "quizHints": {
+        "siteRuby": "目{め}",
+        "causeRuby": "生活{せいかつ}など",
+        "symptomRuby": "遠{とお}くが みづらい"
+      },
+      "agentRuby": "生活{せいかつ}や 遺伝{いでん}など（病原体{びょうげんたい}ではないよ）"
+    },
+    {
+      "id": "cavity",
+      "name": "虫歯",
+      "nameRuby": "虫歯{むしば}",
+      "bodyPartIds": [
+        "tooth"
+      ],
+      "causeIds": [
+        "bacteria",
+        "lifestyle"
+      ],
+      "symptomsRuby": "歯{は}が いたくて、穴{あな}が あくことも ある",
+      "summaryRuby": "ばいきんが 歯{は}を とかしていくこと",
+      "detailRuby": "あまいものと みがき残{のこ}しが、げんいんに なりやすいよ",
+      "careRuby": "みがいて、歯科{しか}の せんせいにも みてもらおう",
+      "triviaRuby": "フッ素{ふっそ}が 歯{は}を つよくするよ",
+      "illustration": "illustrations/diseases/cavity",
+      "quizHints": {
+        "siteRuby": "歯{は}",
+        "causeRuby": "細菌{さいきん}",
+        "symptomRuby": "歯{は}の いたみ"
+      },
+      "agentRuby": "おもに ミュータンス菌{きん}（Streptococcus mutans）など"
+    },
+    {
+      "id": "otitis",
+      "name": "中耳炎",
+      "nameRuby": "中耳炎{ちゅうじえん}",
+      "bodyPartIds": [
+        "ear"
+      ],
+      "causeIds": [
+        "bacteria",
+        "virus"
+      ],
+      "symptomsRuby": "耳{みみ}が いたくて、ねつが でることも ある",
+      "summaryRuby": "耳{みみ}の なかが いたくなる びょうき",
+      "detailRuby": "かぜの あとに なりやすいよ",
+      "careRuby": "耳{みみ}を いじらず、せんせいに みてもらおう",
+      "triviaRuby": "こどもの 耳{みみ}の 管{かん}は みじかくて、なりやすいよ",
+      "illustration": "illustrations/diseases/otitis",
+      "quizHints": {
+        "siteRuby": "耳{みみ}",
+        "causeRuby": "細菌{さいきん}など",
+        "symptomRuby": "耳{みみ}のいたみ・ねつ"
+      },
+      "agentRuby": "肺炎球菌{はいえんきゅうきん}、インフルエンザ菌{きん}、モラクセラなど"
+    },
+    {
+      "id": "cystitis",
+      "name": "膀胱炎",
+      "nameRuby": "膀胱炎{ぼうこうえん}",
+      "bodyPartIds": [
+        "kidney"
+      ],
+      "causeIds": [
+        "bacteria"
+      ],
+      "symptomsRuby": "おしっこが ちかくて、するとき いたい",
+      "summaryRuby": "おしっこを ためる ところに ばいきんが つくこと",
+      "detailRuby": "水分{すいぶん}を とって、がまんしすぎないでね",
+      "careRuby": "つらいときは びょういんへ。じぶんで くすりを 決{き}めないでね",
+      "triviaRuby": "女{おんな}の子{こ}の ほうに すこし おおいよ",
+      "illustration": "illustrations/diseases/cystitis",
+      "quizHints": {
+        "siteRuby": "おしっこの ところ",
+        "causeRuby": "細菌{さいきん}",
+        "symptomRuby": "おしっこの いたみ"
+      },
+      "agentRuby": "おもに 大腸菌{だいちょうきん}（Escherichia coli）"
+    },
+    {
+      "id": "lifestyle_tired",
+      "name": "生活リズム",
+      "nameRuby": "生活{せいかつ}リズムの みだれ",
+      "bodyPartIds": [
+        "whole",
+        "head"
+      ],
+      "causeIds": [
+        "lifestyle"
+      ],
+      "symptomsRuby": "ねむい、集中{しゅうちゅう}できない、気分{きぶん}が すぐれない",
+      "summaryRuby": "ねるじかんや ごはんの じかんが みだれること",
+      "detailRuby": "びょうきというより、生活{せいかつ}の くみたての はなしだよ",
+      "careRuby": "ねるじかんを そろえて、あさひを あびよう",
+      "triviaRuby": "早{はや}ね 早{はや}起{お}きが からだの みかただよ",
+      "illustration": "illustrations/diseases/lifestyle_tired",
+      "quizHints": {
+        "siteRuby": "全身{ぜんしん}",
+        "causeRuby": "生活{せいかつ}習慣{しゅうかん}",
+        "symptomRuby": "ねむい・だるい"
+      },
+      "agentRuby": "生活{せいかつ}リズムの みだれ（病原体{びょうげんたい}ではないよ）"
+    }
+  ]
+}
