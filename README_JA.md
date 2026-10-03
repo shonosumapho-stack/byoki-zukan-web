@@ -28,6 +28,10 @@ npm run build
 
 `diseases.json` は `byoki_zukan/app/src/main/assets/diseases.json` を `public/assets/` にコピーして同期してください。
 
+## 本番
+
+https://byoki-zukan-web.vercel.app/#/
+
 ## デプロイ
 
-`vercel.json` 付きの Vite 静的サイトとしてデプロイできます。
+`main` に push すると Vercel でビルドされます。コンテンツ更新時は `scripts/sync-content.ps1` で JSON を同期してください。
